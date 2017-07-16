@@ -11,6 +11,11 @@
 		0E14DD321F1ACA5C000D7D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E14DD301F1ACA5C000D7D61 /* Main.storyboard */; };
 		0E14DD341F1ACA5C000D7D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E14DD331F1ACA5C000D7D61 /* Assets.xcassets */; };
 		0E14DD371F1ACA5C000D7D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E14DD351F1ACA5C000D7D61 /* LaunchScreen.storyboard */; };
+		0E14DD3F1F1AFC80000D7D61 /* FlickrPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E14DD3E1F1AFC80000D7D61 /* FlickrPhotosViewController.swift */; };
+		0E14DD431F1B0A12000D7D61 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E14DD401F1B0A11000D7D61 /* Flickr.swift */; };
+		0E14DD441F1B0A12000D7D61 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E14DD411F1B0A12000D7D61 /* FlickrPhoto.swift */; };
+		0E14DD451F1B0A12000D7D61 /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E14DD421F1B0A12000D7D61 /* FlickrSearchResults.swift */; };
+		0E14DD471F1BE4E8000D7D61 /* FlickrPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E14DD461F1BE4E8000D7D61 /* FlickrPhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		0E14DD331F1ACA5C000D7D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E14DD361F1ACA5C000D7D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E14DD381F1ACA5C000D7D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E14DD3E1F1AFC80000D7D61 /* FlickrPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotosViewController.swift; sourceTree = "<group>"; };
+		0E14DD401F1B0A11000D7D61 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+		0E14DD411F1B0A12000D7D61 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
+		0E14DD421F1B0A12000D7D61 /* FlickrSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearchResults.swift; sourceTree = "<group>"; };
+		0E14DD461F1BE4E8000D7D61 /* FlickrPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				0E14DD2C1F1ACA5C000D7D61 /* AppDelegate.swift */,
 				0E14DD301F1ACA5C000D7D61 /* Main.storyboard */,
+				0E14DD461F1BE4E8000D7D61 /* FlickrPhotoCell.swift */,
+				0E14DD3E1F1AFC80000D7D61 /* FlickrPhotosViewController.swift */,
+				0E14DD401F1B0A11000D7D61 /* Flickr.swift */,
+				0E14DD411F1B0A12000D7D61 /* FlickrPhoto.swift */,
+				0E14DD421F1B0A12000D7D61 /* FlickrSearchResults.swift */,
 				0E14DD331F1ACA5C000D7D61 /* Assets.xcassets */,
 				0E14DD351F1ACA5C000D7D61 /* LaunchScreen.storyboard */,
 				0E14DD381F1ACA5C000D7D61 /* Info.plist */,
@@ -134,7 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E14DD3F1F1AFC80000D7D61 /* FlickrPhotosViewController.swift in Sources */,
+				0E14DD451F1B0A12000D7D61 /* FlickrSearchResults.swift in Sources */,
+				0E14DD441F1B0A12000D7D61 /* FlickrPhoto.swift in Sources */,
+				0E14DD431F1B0A12000D7D61 /* Flickr.swift in Sources */,
 				0E14DD2D1F1ACA5C000D7D61 /* AppDelegate.swift in Sources */,
+				0E14DD471F1BE4E8000D7D61 /* FlickrPhotoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

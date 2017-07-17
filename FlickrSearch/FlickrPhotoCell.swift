@@ -14,7 +14,7 @@ class FlickrPhotoCell: UICollectionViewCell{
     // MARK: - Properties
     override var isSelected: Bool {
         didSet {
-            imageView.layer.borderWidth = isSelected ? 10 : 0
+            imageView.layer.borderWidth = isSelected ? 2 : 0
         }
     }
     
